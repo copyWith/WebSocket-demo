@@ -13,12 +13,6 @@
 <br />
 <br />
 2.安装express<br />
-
-```
-  npm install express -g
-  npm install express-generator -g
-  express -v//测试版本号
-```
 ```
   npm install express -g
   npm install express-generator -g
@@ -32,13 +26,6 @@
 <br />
 4.安装websocket、socket.io(聊天室)<br />
 ```
-  npm install
-  npm install ws
-  npm install socket.io
-```
-
-```
-  
   npm install
   npm install ws
   npm install socket.io
