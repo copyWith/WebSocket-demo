@@ -1,4 +1,4 @@
-<img src="https://github.com/copyWith/photoGallery/blob/master/about_me.jpg?raw=true" alt="">
+<img src="https://github.com/copyWith/photoGallery/blob/master/about_me.jpg?raw=true" width="10" height="40" alt="">
 自己安装mySql服务与navicat：<br />
 &#x3000;&#x3000;https://pan.baidu.com/s/1NJ9gX9wO3CA0bVYMhbX0Aw<br />
 &#x3000;&#x3000;提取码：lzw2
@@ -20,14 +20,14 @@
 <br />
 <br />
 3.在项目目录中express demo初始化express框架,cd到demo目录下
-
+<img src="https://github.com/copyWith/photoGallery/blob/master/websocket_1.jpg?raw=true" alt="">
 <br />
 <br />
 4.安装websocket、socket.io(聊天室)<br />
   &#x3000;npm install <br />
   &#x3000;npm install ws <br />
   &#x3000;npm install socket.io
-
+<img src="https://github.com/copyWith/photoGallery/blob/master/websocket_2.png?raw=true" alt="">
 <br />
 <br />
 5.node *.js 启动服务
