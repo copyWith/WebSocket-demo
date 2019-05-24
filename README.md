@@ -13,9 +13,11 @@
 <br />
 <br />
 2.安装express<br />
+```
   &#x3000;npm install express -g<br />
   &#x3000;npm install express-generator -g<br />
   &#x3000;express -v//测试版本号
+```
   
 <br />
 <br />
@@ -24,19 +26,13 @@
 <br />
 <br />
 4.安装websocket、socket.io(聊天室)<br />
+```
   &#x3000;npm install <br />
   &#x3000;npm install ws <br />
   &#x3000;npm install socket.io
+```
 <img src="https://github.com/copyWith/photoGallery/blob/master/websocket_2.png?raw=true" width="500" height="auto" alt="">
 <br />
 <br />
 5.node *.js 启动服务
 
-
-```
-//安装依赖
-npm install
-
-//项目运行
-npm run dev
-```
