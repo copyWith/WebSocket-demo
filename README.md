@@ -36,6 +36,13 @@
   npm install ws
   npm install socket.io
 ```
+
+```
+  
+  npm install
+  npm install ws
+  npm install socket.io
+```
 <img src="https://github.com/copyWith/photoGallery/blob/master/websocket_2.png?raw=true" width="500" height="auto" alt="">
 <br />
 <br />
