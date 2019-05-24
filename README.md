@@ -35,3 +35,11 @@
 <br />
 5.node *.js 启动服务
 
+
+```
+//安装依赖
+npm install
+
+//项目运行
+npm run dev
+```
