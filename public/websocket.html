@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<input type="text" id="val" placeholder="请输入需要提交的内容"/>
+<div style="width: 100px;height: 20px;background-color: #f00;color: #fff;" onclick="btn()">提交</div>
+<div id="box"></div>
+<script>
+//    打开一个WebSocket:
+    var ws = new WebSocket('ws://127.0.0.1:8021/');
+//    响应事件:
+    ws.onopen = function(ope) { console.log(ope); };
+    ws.onmessage = function(msg) { var arr=JSON.parse(msg.data);for(i in arr){document.querySelector("#box").innerHTML+=arr[i]+"<br/>"} };
+    ws.onerror = function(err) { console.log(err); };
+    ws.onclose = function(cle) { console.log(cle); };
+    function btn(){
+        document.querySelector("#box").innerHTML='';
+//        发送数据至服务端
+        ws.send(document.querySelector("#val").value);
+    }
+</script>
+</body>
+</html>
