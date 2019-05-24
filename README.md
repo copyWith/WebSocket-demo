@@ -37,9 +37,7 @@
 
 
 ```
-//安装依赖
 npm install
-
-//项目运行
-npm run dev
+npm install ws
+npm install socket.io
 ```
