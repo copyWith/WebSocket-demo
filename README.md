@@ -20,14 +20,14 @@
 <br />
 <br />
 3.在项目目录中express demo初始化express框架,cd到demo目录下
-<img src="https://github.com/copyWith/photoGallery/blob/master/websocket_1.jpg?raw=true" alt="">
+<img src="https://github.com/copyWith/photoGallery/blob/master/websocket_1.jpg?raw=true" width="500" height="auto" alt="">
 <br />
 <br />
 4.安装websocket、socket.io(聊天室)<br />
   &#x3000;npm install <br />
   &#x3000;npm install ws <br />
   &#x3000;npm install socket.io
-<img src="https://github.com/copyWith/photoGallery/blob/master/websocket_2.png?raw=true" alt="">
+<img src="https://github.com/copyWith/photoGallery/blob/master/websocket_2.png?raw=true" width="500" height="auto" alt="">
 <br />
 <br />
 5.node *.js 启动服务
