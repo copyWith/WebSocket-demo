@@ -6,7 +6,7 @@
 <br />
 <br />
 <br />
-1.安装node(https://nodejs.org/en/download/)<br />
+### 1.安装node(https://nodejs.org/en/download/)<br />
   &#x3000;&#x3000;具体可参照:https://www.cnblogs.com/zhouyu2017/p/6485265.html<br />
   &#x3000;&#x3000;node -v//测试版本号
 
@@ -22,11 +22,13 @@
 ```
 <br />
 <br />
-3.在项目目录中express demo初始化express框架,cd到demo目录下
+
+### 3.在项目目录中express demo初始化express框架,cd到demo目录下
 <img src="https://github.com/copyWith/photoGallery/blob/master/websocket_1.jpg?raw=true" width="500" height="auto" alt="">
 <br />
 <br />
-4.安装websocket、socket.io(聊天室)<br />
+
+### 4.安装websocket、socket.io(聊天室)<br />
 
 ```
   npm install
@@ -36,7 +38,8 @@
 <img src="https://github.com/copyWith/photoGallery/blob/master/websocket_2.png?raw=true" width="500" height="auto" alt="">
 <br />
 <br />
-5.node *.js 启动服务
+
+### 5.node *.js 启动服务
 
 ```
   node websocket.js
