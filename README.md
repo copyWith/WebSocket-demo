@@ -13,6 +13,12 @@
 <br />
 <br />
 2.安装express<br />
+
+```
+  npm install express -g
+  npm install express-generator -g
+  express -v//测试版本号
+```
 ```
   npm install express -g
   npm install express-generator -g
