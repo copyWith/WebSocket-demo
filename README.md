@@ -18,7 +18,6 @@
   &#x3000;npm install express-generator -g<br />
   &#x3000;express -v//测试版本号
 ```
-  
 <br />
 <br />
 3.在项目目录中express demo初始化express框架,cd到demo目录下
