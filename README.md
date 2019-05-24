@@ -31,6 +31,3 @@
 <br />
 <br />
 5.node *.js 启动服务
-//项目运行
-npm run dev
-```
